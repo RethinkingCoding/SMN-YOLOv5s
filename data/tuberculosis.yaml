@@ -1,0 +1,9 @@
+# download command/URL (optional)
+#download: bash data/scripts/get_voc.sh
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./结核杆菌/Tuberculosis2023/images/train
+val: ./结核杆菌/Tuberculosis2023/images/val 
+# number of classes
+nc: 1
+# class names
+names: ['TBbacillus']
